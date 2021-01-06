@@ -562,3 +562,244 @@
 // else {
 //     alert("Invalid operation")
 // } 
+
+
+// CHAPTER NO 12
+
+
+// Question no 1
+
+// var a = prompt ("Enter your value");
+// if(a.charCodeAt() >= 65 && a.charCodeAt() <= 90){
+//     alert("Capital Letter")
+
+// }
+// else if (a.charCodeAt() >=97 && a.charCodeAt() <=122){
+//     alert("small letter")
+// }
+// else{
+//     alert("Number")
+// }
+
+//QUESTION NO 2
+
+// var a = +prompt("enter value","")
+// var b = +prompt("enter value","")
+// if(a>b){
+//     alert(a)
+// }
+// else if(a<b){
+//     alert(b)
+// } else if (a=b){
+//     alert("Both values are equal")
+// }
+
+
+//QUestion no 03
+
+// var a = +prompt("enter value","")
+// if(a>0){
+//     alert("Its a positive number")
+// }
+// else if(a<0){
+//     alert("its a negative number")
+// } else{
+//     alert("its zero")
+// }
+
+
+//Question no. 04
+
+// var a = prompt("enter vowel","")
+// if(a==="a"||a==="e"||a==="i"||a==="o"||a==="u"){
+//     alert("TRUE")
+// }else{
+//     alert("FALSE")
+// }
+
+//Question no 05
+
+// var a = ("abc a")
+// var b = prompt("enter password", "")
+// var c = prompt("confirm password", "")
+// if (a = b && c) {
+//     alert("Welcome")
+// }else if (b !== c) {
+//     alert("password not matched")
+// } else if (c !== b) {
+//     alert("password not matched")
+// } else if (b !== a) {
+//     alert("wrong password")
+// } else if (c !== a) {
+//     alert("wrong password")
+// }
+
+//question no 06
+
+// var hour = +prompt("enter number");
+// if (hour < 18) {
+//     alert("Good day");
+// }
+// else {
+//     alert("Good evening");
+// }
+
+//QUestion no 07
+
+// var time = +prompt("Enter Time in 24 hour format","")
+// if(time>=0000 && time <1200){
+//     alert("Good Morning");
+// }else if(time>=1200 && time <1700){
+//     alert("GOOD AFTER NOON");
+// }else if(time >= 1700 && time<2100){
+//     alert("GOOD EVENING");
+// }else if (time >= 2100 && time <=2359){
+//     alert("GOOD NIGHT");
+// }
+
+
+
+//CHAPTER 14 - 16
+
+
+
+//QUESTION NO 01
+
+// var students = [];
+// students[0]="ALi";
+// students[1]="OWais";
+// console.log(students)
+
+//Question no 03
+
+// var stringArray = ["owais"]
+
+// //Question no 04
+
+// var numberArray = [5]
+
+// //Question no 05
+
+// var booleanArray=[true]
+
+// //Question no 06
+
+// var mixedArray = ["owais", 1, true];
+
+//Question no 07
+
+// var Qualifications = ["SSC","HSC","BCS","BS","BCOM","MS","M.Phil","PhD"]
+// document.write("<h1>QUALIFICATIONS</h1>" + "<br />")
+// document.write(Qualifications.join(" <br> "))
+
+
+//Question no 08
+
+// var students = ["ALI","OWAIS","DANISH"]
+// var score = [320, 230, 480]
+// var percentage = [64 , 46 , 96]
+
+// document.write("SCORE OF " + students[0] + " is " + score[0] + " Percentage: " + percentage[0] +"%")
+// document.write("<br>"+"SCORE OF " + students[1] + " is " + score[1] + " Percentage: " + percentage[1] +"%")
+// document.write("<br>"+"SCORE OF " + students[2] + " is " + score[2] + " Percentage: " + percentage[2] +"%")
+
+
+//Question no 09
+
+// var colors=["RED","YELLOW","ORANGE","WHITE","BLACK"]
+// colors.unshift(prompt("COLOR ADD IN THE BEGINNNING"))
+// colors.push(prompt("ADD COLOR AT THE END"))
+// colors.unshift(prompt("Enter 1st color to add"),prompt("Enter 2nd color to add"))
+// colors.shift()
+// colors.pop()
+
+// document.write(colors.join(" "))
+
+
+
+//Question no 10
+
+// var scores = [320,230,480,120]
+// scores.sort(function(a, b){return a-b});
+// document.write(scores)
+
+
+//Question no 11
+
+
+// var cities = ["KARACHI" , "ISLAMABAD" , "LAHORE"]
+// document.write("<h2>Cities Name:</h2>" + "<br />" + cities.join(" "))
+// cities[0]
+// cities[2]
+// document.write("<h2>SELECTED CITIES </h2>"+"<br>" + cities[0] + " " + cities[2])
+
+
+// //Question no 12
+// var arr = ["This","is","my","cat"];
+// document.write(arr.join(" "))
+
+// Question no 13
+
+// var devices = ["Keyboard","Mouse","printer","monitor"]
+// document.write( devices +"<br>"+ devices[3])
+
+
+// Question no 15
+
+// var phoneManufacturers=["apple" , "Samsung" , "NOkia"]
+// document.write("<select> <option> apple </option> <option>Samsung</option> <option>Nokia</option> </select>")
+
+
+
+//Chapter 17 - 20
+
+
+//QUestion no 1
+
+// var empty = [[] , [] , []]
+
+//Question no 2
+
+// var empty = [[0 , 1 , 2, 3] , [1,0,1,2] , [2,1,0,1]]
+// document.write(empty[0].join(" ")+ "<br>"+ empty[1].join(" ") +"<br>"+empty[2].join(" "))
+
+//Question no 3
+// var i;
+// for(i=1; i<=10; i++ ){
+//     document.write(i + "<br>")
+// }
+
+//Question no 4
+
+// var a = +prompt("Enter table name","")
+// for(i=1; i<=10; i++){
+//     document.write(a + " " + "X" + i + "=" + a*i + "<br />")
+// }
+
+//Question no 5
+
+// var fruits = ["apple", "banana", "mango", "orange","strawberry"]
+
+// for(i=0; i<=fruits.length; i++ ){
+//     document.write("Element at index" + i +"is" +" " + fruits[i] + "<br>" )
+// }
+
+//Question no 6 a
+
+// var i;
+// for(i=1; i<=15; i++ ){
+//     document.write(i+ " ")
+// }
+
+
+
+//Question no 7 
+
+// var A = ["Cake", "Apple", "Cookie", "chips", "patties"]
+// var b = prompt("Search", "")
+// if (b = A[0] || A[1] || A[2] || A[3] || A[4]) {
+//     alert("found")
+// } else {
+//     alert("NOt Found")
+// }
+
